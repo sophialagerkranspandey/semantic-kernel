@@ -33,46 +33,10 @@ CreatePluginFromOpenApiSpec_Github.cs <br> CreatePluginFromOpenApiSpec_Jira.cs <
 <br> GroundednessChecks.cs <br> ImportPluginFromGrpc.cs <br> OpenAIPlugins.cs |
 |PromptsTemplates | ChatCompletionPrompts.cs <br> ChatWithPrompts.cs <br> MultiplePromptTemplates.cs <br> PromptFunctionsWithChatGPT.cs <br> TemplateLanguage.cs |
 | RAG | WithFunctionCallingStepwisePlanner.cs <br> WithPlugins.cs |
-| Resources | Agents Folder <br> EnglishRoberta
-.Net Samples Restructuring - Phase 2 (#6005)
-2 days ago
-Plugins
-.Net Samples Restructuring - Phase 2 (#6005)
-2 days ago
-22-ai-plugin.json
-.Net Samples Restructuring - Phase 2 (#6005)
-2 days ago
-22-openapi.json
-.Net Samples Restructuring - Phase 2 (#6005)
-2 days ago
-30-system-prompt.txt
-.Net Samples Restructuring - Phase 2 (#6005)
-2 days ago
-30-user-context.txt
-.Net Samples Restructuring - Phase 2 (#6005)
-2 days ago
-30-user-prompt.txt
-.Net Samples Restructuring - Phase 2 (#6005)
-2 days ago
-65-prompt-override.handlebars
-.Net Samples Restructuring - Phase 2 (#6005)
-2 days ago
-GenerateStory.yaml
-.Net Samples Restructuring - Phase 2 (#6005)
-2 days ago
-GenerateStoryHandlebars.yaml
-.Net Samples Restructuring - Phase 2 (#6005)
-2 days ago
-chat-gpt-retrieval-plugin-open-api.yaml
-.Net Samples Restructuring - Phase 2 (#6005)
-2 days ago
-sample_image.jpg
-.Net Samples Restructuring - Phase 2 (#6005)
-2 days ago
-test_audio.wav
-.Net Samples Restructuring - Phase 2 (#6005)
-2 days ago
-test_image.jpg
-.Net Samples Restructuring - Phase 2 (#6005)
-2 days ago
-travelinfo.txt
+| Resources | Agents Folder <br> EnglishRoberta Folder <br> Plugins <br> 22-ai-plugin.json <br> 22-openapi.json <br> 30-system-prompt.txt <br>
+30-user-context.txt <br> 30-user-prompt.txt <br> 65-prompt-override.handlebars <br> GenerateStory.yaml <br> GenerateStoryHandlebars.yaml <br> 
+chat-gpt-retrieval-plugin-open-api.yaml <br> sample_image.jpg <br> test_audio.wav <br> test_image.jpg <br> travelinfo.txt |
+| Search | BingAndGooglePlugins.cs <br> MyAzureAISearchPlugin.cs <br> WebSearchQueriesPlugin.cs |
+| TextGeneration | Custom_TextGenerationService.cs <br> HuggingFace_TextGeneration.cs <br> OpenAI_TextGenerationStreaming.cs |
+| TextToAudio | OpenAI_TextToAudio.cs |
+| TextToImage | OpenAI_TextToImageDalle3.cs |
